@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 1em sans-serif;
+
+}
+
+section {
+    background-image: url(./pexels-photo-276534.jpeg);
+    height: 90%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 20hv;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 35px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 35px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: rgb(129, 103, 58);
+    color: aliceblue;
+    border-radius: 2px;
+}
+
+.main:hover {
+    background-color: rgb(51, 50, 50);
+}
+
+.center {
+    padding: 130px 50px 25px 210px;
+}
+
+.center h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    padding: 0 0 25px 0;
+}
+
+.center p {
+    padding: 0 0 25px 0;
+}
+
+button {
+    background-color: rgb(129, 103, 58);
+    border: none;
+    padding: 15px 50px;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(51, 50, 50);
+
+}
+
+.title h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.title p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+.about {
+    padding-bottom: 40px;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discrip {
+    margin-left: 210px;
+}
+
+.discrip p {
+    padding-bottom: 20px;
+}
+
+.discrip h3 {
+    padding-bottom: 20px;
+    font-weight: lighter;
+    font-size: 200%;
+}
+
+.img {
+    margin-right: 210px;
+}
+
+.service {
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.menu img {
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+
+.menu img:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sign {
+    padding-bottom: 50px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email input {
+    padding: 14px 300px 14px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 5px 0 0 5px;
+}
+
+.email button {
+    background-color: rgb(129, 103, 58);
+    border: none;
+    padding: 15px 50px;
+    color: aliceblue;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.email button:hover {
+    background-color: rgb(51, 50, 50);
+}
+
+footer {
+    background-color: rgb(51, 50, 50);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 80px;
+    line-height: 1.5rem;
+    font-size: small;
+}
+
+footer h3 {
+    font-size: large;
+    font-weight: 10%;
+    padding-bottom: 15px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.nav1 li {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav1 li:hover {
+    color: rgba(117, 115, 115, 0.911);
+}
